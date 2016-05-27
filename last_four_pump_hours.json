@@ -1,0 +1,27 @@
+[
+  {
+    "_type": "EnableDisableRemote", 
+    "_description": "EnableDisableRemote 2005-01-01T04:39:37 head[2], body[14] op[0x26]", 
+    "timestamp": "2005-01-01T04:39:37", 
+    "_body": "2700000000000028000000000000", 
+    "appended": [
+      {
+        "_body": "", 
+        "_head": "3500", 
+        "_type": "Base", 
+        "_date": "0040220105", 
+        "_description": "Base (2005, 1, 1, 2, 0, 0) head[2], body[0] op[0x35]"
+      }
+    ], 
+    "_head": "2600", 
+    "_date": "2567040105"
+  }, 
+  {
+    "_type": "EnableDisableRemote", 
+    "_description": "EnableDisableRemote 2005-01-01T04:39:29 head[2], body[14] op[0x26]", 
+    "timestamp": "2005-01-01T04:39:29", 
+    "_body": "2700000000000028000000000000", 
+    "_head": "2601", 
+    "_date": "1d67040105"
+  }
+]
