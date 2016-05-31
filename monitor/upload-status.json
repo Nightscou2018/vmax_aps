@@ -1,6 +1,8 @@
 {
   "device": "openaps://raspberrypi", 
-  "pump": {}, 
+  "pump": {
+    "clock": "2016-05-29T21:25:52-07:00"
+  }, 
   "openaps": {
     "suggested": {
       "bg": 290, 
