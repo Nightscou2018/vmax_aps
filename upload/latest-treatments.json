@@ -1,57 +1,281 @@
 [
   {
     "_type": "questionable24",
-    "_description": "questionable24 2016-05-31T23:00:44 head[2], body[0] op[0x24]",
-    "timestamp": "2016-05-31T23:00:44-07:00",
+    "_description": "questionable24 2016-05-31T23:03:23 head[2], body[0] op[0x24]",
+    "timestamp": "2016-05-31T23:03:23-07:00",
     "_body": "",
-    "_head": "24c8",
-    "_date": "6c40171f10",
+    "_head": "24a0",
+    "_date": "5743171f10",
     "medtronic": "mm://openaps/mm-format-ns-treatments/questionable24",
-    "created_at": "2016-05-31T23:00:44-07:00",
+    "created_at": "2016-05-31T23:03:23-07:00",
     "enteredBy": "openaps://medtronic/522",
     "eventType": "Note",
     "notes": "questionable24 522 "
   },
   {
-    "_type": "ChangeBasalProfile_new_profile",
-    "_description": "ChangeBasalProfile_new_profile 2016-05-31T23:00:07 head[2], body[145] op[0x09]",
-    "timestamp": "2016-05-31T23:00:07-07:00",
-    "_body": "003c000e500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-    "_head": "0902",
-    "rate": "offset",
-    "_date": "4740171f10",
-    "medtronic": "mm://openaps/mm-format-ns-treatments/ChangeBasalProfile_new_profile",
-    "created_at": "2016-05-31T23:00:07-07:00",
+    "_type": "OldBolusWizardChange",
+    "_description": "OldBolusWizardChange 2016-05-31T23:03:00 head[2], body[117] op[0x5a]",
+    "timestamp": "2016-05-31T23:03:00-07:00",
+    "_body": "152100140000000000000000000000000000003c00000000000000000000000000000064780c5078000000000000000000000000000000000000452200060a0614052a070000000000000000001924280000000000000000000000000064780c507800000000000000000000000000000000000034",
+    "changed": {
+      "insulin_sensitivies": [
+        {
+          "i": 0,
+          "_offset": 0,
+          "sensitivity": 25,
+          "offset": 0
+        },
+        {
+          "i": 1,
+          "_offset": 36,
+          "sensitivity": 40,
+          "offset": 1080
+        },
+        {
+          "i": 2,
+          "_offset": 0,
+          "sensitivity": 0,
+          "offset": 0
+        },
+        {
+          "i": 3,
+          "_offset": 0,
+          "sensitivity": 0,
+          "offset": 0
+        },
+        {
+          "i": 4,
+          "_offset": 0,
+          "sensitivity": 0,
+          "offset": 0
+        },
+        {
+          "i": 5,
+          "_offset": 0,
+          "sensitivity": 0,
+          "offset": 0
+        },
+        {
+          "i": 6,
+          "_offset": 0,
+          "sensitivity": 0,
+          "offset": 0
+        },
+        {
+          "i": 7,
+          "_offset": 0,
+          "sensitivity": 0,
+          "offset": 0
+        }
+      ],
+      "bg_targets": [
+        {
+          "high": 120,
+          "_offset": 0,
+          "low": 100,
+          "offset": 0
+        },
+        {
+          "high": 120,
+          "_offset": 12,
+          "low": 80,
+          "offset": 360
+        },
+        {
+          "high": 0,
+          "_offset": 0,
+          "low": 0,
+          "offset": 0
+        },
+        {
+          "high": 0,
+          "_offset": 0,
+          "low": 0,
+          "offset": 0
+        },
+        {
+          "high": 0,
+          "_offset": 0,
+          "low": 0,
+          "offset": 0
+        },
+        {
+          "high": 0,
+          "_offset": 0,
+          "low": 0,
+          "offset": 0
+        },
+        {
+          "high": 0,
+          "_offset": 0,
+          "low": 0,
+          "offset": 0
+        },
+        {
+          "high": 0,
+          "_offset": 0,
+          "low": 0,
+          "offset": 0
+        }
+      ],
+      "head": "4522",
+      "_head": "0b01000101 0b00100010",
+      "carb_ratios": [
+        {
+          "ratio": 6,
+          "i": 0,
+          "start": "00:00:00",
+          "r": 6,
+          "offset": 0,
+          "x": 0
+        },
+        {
+          "ratio": 6,
+          "i": 10,
+          "start": "05:00:00",
+          "r": 6,
+          "offset": 300,
+          "x": 1
+        },
+        {
+          "ratio": 5,
+          "i": 20,
+          "start": "10:00:00",
+          "r": 5,
+          "offset": 600,
+          "x": 2
+        },
+        {
+          "ratio": 7,
+          "i": 42,
+          "start": "21:00:00",
+          "r": 7,
+          "offset": 1260,
+          "x": 3
+        }
+      ]
+    },
+    "_head": "5a0f",
+    "tail": 52,
+    "stale": {
+      "insulin_sensitivies": [
+        {
+          "i": 0,
+          "_offset": 0,
+          "sensitivity": 60,
+          "offset": 0
+        },
+        {
+          "i": 1,
+          "_offset": 0,
+          "sensitivity": 0,
+          "offset": 0
+        },
+        {
+          "i": 2,
+          "_offset": 0,
+          "sensitivity": 0,
+          "offset": 0
+        },
+        {
+          "i": 3,
+          "_offset": 0,
+          "sensitivity": 0,
+          "offset": 0
+        },
+        {
+          "i": 4,
+          "_offset": 0,
+          "sensitivity": 0,
+          "offset": 0
+        },
+        {
+          "i": 5,
+          "_offset": 0,
+          "sensitivity": 0,
+          "offset": 0
+        },
+        {
+          "i": 6,
+          "_offset": 0,
+          "sensitivity": 0,
+          "offset": 0
+        },
+        {
+          "i": 7,
+          "_offset": 0,
+          "sensitivity": 0,
+          "offset": 0
+        }
+      ],
+      "bg_targets": [
+        {
+          "high": 120,
+          "_offset": 0,
+          "low": 100,
+          "offset": 0
+        },
+        {
+          "high": 120,
+          "_offset": 12,
+          "low": 80,
+          "offset": 360
+        },
+        {
+          "high": 0,
+          "_offset": 0,
+          "low": 0,
+          "offset": 0
+        },
+        {
+          "high": 0,
+          "_offset": 0,
+          "low": 0,
+          "offset": 0
+        },
+        {
+          "high": 0,
+          "_offset": 0,
+          "low": 0,
+          "offset": 0
+        },
+        {
+          "high": 0,
+          "_offset": 0,
+          "low": 0,
+          "offset": 0
+        },
+        {
+          "high": 0,
+          "_offset": 0,
+          "low": 0,
+          "offset": 0
+        },
+        {
+          "high": 0,
+          "_offset": 0,
+          "low": 0,
+          "offset": 0
+        }
+      ],
+      "head": "1521",
+      "_head": "0b00010101 0b00100001",
+      "carb_ratios": [
+        {
+          "ratio": 20,
+          "i": 0,
+          "start": "00:00:00",
+          "r": 20,
+          "offset": 0,
+          "x": 0
+        }
+      ]
+    },
+    "_date": "4043171f10",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/OldBolusWizardChange",
+    "created_at": "2016-05-31T23:03:00-07:00",
     "enteredBy": "openaps://medtronic/522",
     "eventType": "Note",
-    "notes": "ChangeBasalProfile_new_profile 522 "
-  },
-  {
-    "_type": "ChangeBasalProfile_old_profile",
-    "_description": "ChangeBasalProfile_old_profile 2016-05-31T23:00:07 head[2], body[145] op[0x08]",
-    "timestamp": "2016-05-31T23:00:07-07:00",
-    "_body": "002800041a000724000804000b08000d120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-    "_head": "0806",
-    "rate": "offset",
-    "_date": "4740171f10",
-    "medtronic": "mm://openaps/mm-format-ns-treatments/ChangeBasalProfile_old_profile",
-    "created_at": "2016-05-31T23:00:07-07:00",
-    "enteredBy": "openaps://medtronic/522",
-    "eventType": "Note",
-    "notes": "ChangeBasalProfile_old_profile 522 "
-  },
-  {
-    "_type": "ChangeMaxBasal",
-    "_description": "ChangeMaxBasal 2016-05-31T22:58:39 head[2], body[0] op[0x2c]",
-    "timestamp": "2016-05-31T22:58:39-07:00",
-    "_body": "",
-    "maxBasal": 5,
-    "_head": "2cc8",
-    "_date": "677a161f10",
-    "medtronic": "mm://openaps/mm-format-ns-treatments/ChangeMaxBasal",
-    "created_at": "2016-05-31T22:58:39-07:00",
-    "enteredBy": "openaps://medtronic/522",
-    "eventType": "Note",
-    "notes": "ChangeMaxBasal 522 "
+    "notes": "OldBolusWizardChange 522 "
   }
 ]
