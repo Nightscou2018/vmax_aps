@@ -1,6 +1,25 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-06-02T04:00:40 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-06-02T04:00:40-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "6880044210"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-06-02T04:00:40 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-06-02T04:00:40-07:00", 
+    "_body": "00", 
+    "_head": "3362", 
+    "rate": 2.45, 
+    "_date": "6880044210"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-06-02T03:55:43 head[2], body[0] op[0x16]", 
     "timestamp": "2016-06-02T03:55:43-07:00", 
     "_body": "", 
@@ -226,41 +245,5 @@
     "_head": "3380", 
     "rate": 3.2, 
     "_date": "6880004210"
-  }, 
-  {
-    "_type": "Model522ResultTotals", 
-    "_description": "Model522ResultTotals 2016-06-02T00:00:00 head[1], body[41] op[0x6d]", 
-    "timestamp": "2016-06-02T00:00:00-07:00", 
-    "_body": "050c00e800000000085e085e64000000000000000000000000000000000000000000000c00e8000000", 
-    "_head": "6d", 
-    "_date": "6110"
-  }, 
-  {
-    "_type": "ResultDailyTotal", 
-    "_description": "ResultDailyTotal 2016-06-02T00:00:00 head[5], body[0] op[0x07]", 
-    "timestamp": "2016-06-02T00:00:00-07:00", 
-    "_body": "", 
-    "_head": "070000085e", 
-    "valid_date": "2016-06-01", 
-    "_date": "6110"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-06-01T23:55:43 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-06-01T23:55:43-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "6bb7174110"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-06-01T23:55:43 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-06-01T23:55:43-07:00", 
-    "_body": "00", 
-    "_head": "33a0", 
-    "rate": 4.0, 
-    "_date": "6bb7174110"
   }
 ]
