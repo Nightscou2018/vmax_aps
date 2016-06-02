@@ -54,3 +54,5 @@ reporting enact/enacted.json
 }vmax522://JSON/read_clock/monitor/clock.json
 reporting monitor/clock.json
 PREFLIGHT OK
+Uploaded; most recent treatment event @ 2016-06-02T15:15:38-07:00
+Starting loop:
