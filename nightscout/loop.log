@@ -627,3 +627,6 @@ reporting enact/enacted.json
 openaps: 'upload' is not an openaps command. See 'openaps --help'.
         
 Starting loop:
+vmax522://JSON/read_clock/monitor/clock.json
+reporting monitor/clock.json
+PREFLIGHT OK
