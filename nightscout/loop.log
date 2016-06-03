@@ -378,3 +378,5 @@ vmax522://JSON/reservoir/monitor/reservoir.json
 reporting monitor/reservoir.json
 vmax522://JSON/read_status/monitor/status.json
 reporting monitor/status.json
+calculate-iob://JSON/shell/monitor/iob.json
+reporting monitor/iob.json
