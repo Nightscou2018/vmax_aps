@@ -1391,3 +1391,6 @@ calculate-iob://JSON/shell/monitor/iob.json
 No JSON object could be decoded
 
 Starting loop:
+vmax522://JSON/read_clock/monitor/clock.json
+reporting monitor/clock.json
+PREFLIGHT OK
