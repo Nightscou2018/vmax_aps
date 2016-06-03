@@ -14,3 +14,5 @@ vmax522://JSON/read_basal_profile_std/settings/basal_profile.json
 reporting settings/basal_profile.json
 get-profile://text/shell/settings/profile.json
 reporting settings/profile.json
+vmaxdexhandheld://JSON/iter_glucose/monitor/glucose.json
+reporting monitor/glucose.json
