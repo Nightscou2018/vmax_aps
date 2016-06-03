@@ -4,15 +4,15 @@
     "rate": 5, 
     "temp": "absolute"
   }, 
-  "bg": 201, 
+  "bg": 202, 
   "temp": "absolute", 
-  "snoozeBG": 195, 
-  "timestamp": "2016-06-03T06:31:24.878509", 
+  "snoozeBG": 202, 
+  "timestamp": "2016-06-03T06:36:21.624187", 
   "rate": 4.075, 
-  "reason": "Eventual BG 195>=120, max_iob 2, adj. req. rate:5.5 to maxSafeBasal:5.0, no temp, setting 5.0U/hr", 
-  "eventualBG": 195, 
+  "reason": "Eventual BG 202>=120, max_iob 2, adj. req. rate:5.5 to maxSafeBasal:5.0, no temp, setting 5.0U/hr", 
+  "eventualBG": 202, 
   "recieved": false, 
   "duration": 0, 
-  "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 105 Deviation: -6 BGI: 0", 
-  "tick": -1
+  "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 105 Deviation: 0 BGI: 0", 
+  "tick": "+1"
 }
