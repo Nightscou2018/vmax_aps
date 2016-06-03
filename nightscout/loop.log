@@ -771,3 +771,20 @@ reporting monitor/iob.json
 determine-basal://text/shell/enact/suggested.json
 reporting enact/suggested.json
 {"temp":"absolute","bg":125,"tick":"+6","eventualBG":135,"snoozeBG":135,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 40, Target: 105 Deviation: 7 BGI: 1.28","reason":"Eventual BG 135>=120, temp 2<3.5U/hr","duration":30,"rate":3.5}
+vmax522://JSON/set_temp_basal/enact/enacted.json
+reporting enact/enacted.json
+{
+  "bg": 125, 
+  "temp": "absolute", 
+  "snoozeBG": 135, 
+  "recieved": true, 
+  "rate": 3.5, 
+  "reason": "Eventual BG 135>=120, temp 2<3.5U/hr", 
+  "eventualBG": 135, 
+  "timestamp": "2016-06-02T18:51:29.902139", 
+  "duration": 30, 
+  "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 40, Target: 105 Deviation: 7 BGI: 1.28", 
+  "tick": "+6"
+}[Errno 2] No such file or directory
+openaps: 'upload' is not an openaps command. See 'openaps --help'.
+        
