@@ -1083,3 +1083,4 @@ reporting enact/enacted.json
 reporting monitor/clock.json
 PREFLIGHT OK
 Error; could not upload
+Starting loop:
