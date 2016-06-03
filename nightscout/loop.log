@@ -1174,3 +1174,6 @@ reporting monitor/iob.json
 determine-basal://text/shell/enact/suggested.json
 reporting enact/suggested.json
 No action required
+vmax522://JSON/read_clock/monitor/clock.json
+reporting monitor/clock.json
+PREFLIGHT OK
