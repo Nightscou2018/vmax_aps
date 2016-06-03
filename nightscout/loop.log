@@ -37,3 +37,23 @@ reporting monitor/iob.json
 determine-basal://text/shell/enact/suggested.json
 reporting enact/suggested.json
 {"temp":"absolute","bg":269,"tick":"+2","eventualBG":266,"snoozeBG":266,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 110 Deviation: 4 BGI: -1.14","reason":"Eventual BG 266>=120, max_iob 2, no temp, setting 4.952U/hr","duration":30,"rate":4.95}
+vmax522://JSON/set_temp_basal/enact/enacted.json
+reporting enact/enacted.json
+{
+  "requested": {
+    "duration": 30, 
+    "rate": 4.95, 
+    "temp": "absolute"
+  }, 
+  "bg": 269, 
+  "temp": "absolute", 
+  "snoozeBG": 266, 
+  "timestamp": "2016-06-03T03:51:24.512632", 
+  "rate": 4.075, 
+  "reason": "Eventual BG 266>=120, max_iob 2, no temp, setting 4.952U/hr", 
+  "eventualBG": 266, 
+  "recieved": false, 
+  "duration": 0, 
+  "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 110 Deviation: 4 BGI: -1.14", 
+  "tick": "+2"
+}
