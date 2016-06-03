@@ -447,3 +447,6 @@ PREFLIGHT OK
 Error; could not upload
 Error; could not upload
 Starting loop:
+vmax522://JSON/read_clock/monitor/clock.json
+reporting monitor/clock.json
+PREFLIGHT OK
