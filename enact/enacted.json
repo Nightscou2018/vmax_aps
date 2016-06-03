@@ -7,7 +7,7 @@
   "bg": 203, 
   "temp": "absolute", 
   "snoozeBG": 203, 
-  "timestamp": "2016-06-03T06:46:21.685530", 
+  "timestamp": "2016-06-03T06:51:27.548189", 
   "rate": 4.075, 
   "reason": "Eventual BG 203>=120, max_iob 2, adj. req. rate:5.5 to maxSafeBasal:5.0, no temp, setting 5.0U/hr", 
   "eventualBG": 203, 
