@@ -868,3 +868,7 @@ vmax522://JSON/read_status/monitor/status.json
 reporting monitor/status.json
 calculate-iob://JSON/shell/monitor/iob.json
 reporting monitor/iob.json
+determine-basal://text/shell/enact/suggested.json
+reporting enact/suggested.json
+{"temp":"absolute","bg":116,"tick":"+1","eventualBG":114,"snoozeBG":114,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 105 Deviation: 0 BGI: -0.02","reason":"114-114 in range: no temp required, temp 2 ~ req 2U/hr"}
+No action required
