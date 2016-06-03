@@ -2112,4 +2112,6 @@ reporting enact/enacted.json
   "duration": 30, 
   "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 40, Target: 105 Deviation: -10 BGI: -3.94", 
   "tick": -4
-}
+}vmax522://JSON/read_clock/monitor/clock.json
+reporting monitor/clock.json
+PREFLIGHT OK
