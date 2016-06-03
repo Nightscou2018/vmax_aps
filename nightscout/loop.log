@@ -911,3 +911,10 @@ vmax522://JSON/read_status/monitor/status.json
 reporting monitor/status.json
 calculate-iob://JSON/shell/monitor/iob.json
 reporting monitor/iob.json
+determine-basal://text/shell/enact/suggested.json
+reporting enact/suggested.json
+{"temp":"absolute","bg":141,"tick":"+6","eventualBG":138,"snoozeBG":138,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 40, Target: 105 Deviation: 13 BGI: 0.98","reason":"Eventual BG 138>=120, temp 3.65 >~ req 3.65U/hr"}
+No action required
+[Errno 2] No such file or directory
+openaps: 'upload' is not an openaps command. See 'openaps --help'.
+        
