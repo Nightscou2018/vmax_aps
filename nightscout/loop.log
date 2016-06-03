@@ -869,3 +869,6 @@ determine-basal://text/shell/enact/suggested.json
 reporting enact/suggested.json
 [{"msg":"BG data is too old, or clock set incorrectly Thu Jun 02 2016 19:52:45 GMT-0700 (PDT) vs Thu Jun 02 2016 21:31:17 GMT-0700 (PDT)"}]
 No action required
+vmax522://JSON/read_clock/monitor/clock.json
+reporting monitor/clock.json
+PREFLIGHT OK
