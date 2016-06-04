@@ -14,3 +14,6 @@ reporting enact/enacted.json
   "tick": "+2"
 }PREFLIGHT FAIL
 Starting loop:
+vmax522://JSON/read_clock/monitor/clock.json
+reporting monitor/clock.json
+PREFLIGHT OK
