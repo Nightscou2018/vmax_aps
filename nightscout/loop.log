@@ -234,3 +234,7 @@ ns-status://JSON/shell/monitor/upload-status.json
 reporting monitor/upload-status.json
 Input file entries.json does not exist.
 Error; could not upload
+determine-basal://text/shell/enact/suggested.json
+reporting enact/suggested.json
+{"temp":"absolute","bg":335,"tick":-24,"eventualBG":183,"snoozeBG":183,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 120 Deviation: -120 BGI: -2.06","reason":"Eventual BG 183>119 but Avg. Delta -24.00 < Exp. Delta -3.8, temp 2 ~ req 2U/hr"}
+No action required
