@@ -713,3 +713,6 @@ vmax522://JSON/read_basal_profile_std/settings/basal_profile.json
 reporting settings/basal_profile.json
 vmax522://JSON/read_settings/settings/settings.json
 Error; could not upload
+determine-basal://text/shell/enact/suggested.json
+reporting enact/suggested.json
+{"temp":"absolute","bg":236,"tick":"+11","eventualBG":236,"snoozeBG":236,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 120 Deviation: 15 BGI: 1.78","reason":"Eventual BG 236>=120, max_iob 2, temp 5<4.792U/hr","duration":30,"rate":4.8}
