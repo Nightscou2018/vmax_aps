@@ -1,5 +1,5 @@
 {
-  "low_reservoir_warn_point": 20, 
+  "low_reservoir_warn_point": 30, 
   "keypad_lock_status": 0, 
   "maxBasal": 5.0, 
   "temp_basal": {
@@ -15,7 +15,7 @@
     "mode": 2
   }, 
   "rf_enable": false, 
-  "auto_off_duration_hrs": 14, 
+  "auto_off_duration_hrs": 0, 
   "block_enable": false, 
   "timeformat": 0, 
   "insulin_action_curve": 3, 
