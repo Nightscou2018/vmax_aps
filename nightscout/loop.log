@@ -38,3 +38,6 @@ vmax522://JSON/read_clock/monitor/clock.json
 reporting monitor/clock.json
 PREFLIGHT OK
 Error; could not upload
+determine-basal://text/shell/enact/suggested.json
+reporting enact/suggested.json
+{"temp":"absolute","bg":214,"tick":-4,"eventualBG":167,"snoozeBG":167,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 153 Deviation: -4 BGI: -2.95","reason":"Eventual BG 167>150 but Avg. Delta -4.00 < Exp. Delta -3.4; setting current basal of 1.5 as temp. Setting neutral temp basal of 1.5U/hr","duration":30,"rate":1.5}
