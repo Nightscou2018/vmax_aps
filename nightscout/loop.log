@@ -1924,3 +1924,6 @@ determine-basal://text/shell/enact/suggested.json
 reporting enact/suggested.json
 {"temp":"absolute","bg":271,"tick":"+0","eventualBG":203,"snoozeBG":203,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 40, Target: 105 Deviation: 0 BGI: -2.1","reason":"Eventual BG 203>=120, max_iob 2, temp 2.85 >~ req 2.622U/hr"}
 No action required
+vmax522://JSON/read_clock/monitor/clock.json
+reporting monitor/clock.json
+PREFLIGHT OK
