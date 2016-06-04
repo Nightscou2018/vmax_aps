@@ -223,3 +223,6 @@ vmax522://JSON/read_battery_status/monitor/battery.json
 reporting monitor/battery.json
 vmax522://JSON/reservoir/monitor/reservoir.json
 Starting loop:
+vmax522://JSON/read_clock/monitor/clock.json
+reporting monitor/clock.json
+PREFLIGHT OK
