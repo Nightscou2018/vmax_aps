@@ -719,3 +719,6 @@ reporting enact/suggested.json
 vmax522://JSON/set_temp_basal/enact/enacted.json
 No action required
 Starting loop:
+vmax522://JSON/read_clock/monitor/clock.json
+reporting monitor/clock.json
+PREFLIGHT OK
