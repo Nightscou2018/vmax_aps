@@ -117,3 +117,4 @@ PREFLIGHT OK
 vmax522://JSON/read_settings/settings/settings.json
 reporting settings/settings.json
 vmax522://JSON/read_bg_targets/settings/bg_targets_raw.json
+Starting loop:
