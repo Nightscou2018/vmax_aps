@@ -1723,3 +1723,6 @@ vmax522://JSON/read_clock/monitor/clock.json
 reporting monitor/clock.json
 PREFLIGHT OK
 Error; could not upload
+determine-basal://text/shell/enact/suggested.json
+reporting enact/suggested.json
+{"temp":"absolute","bg":106,"tick":-27,"eventualBG":82,"snoozeBG":82,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 120 Deviation: -24 BGI: 0","reason":"Eventual BG 82<119, setting -4U/hr","duration":30,"rate":0}
