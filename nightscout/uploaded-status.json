@@ -1,7 +1,7 @@
 [
   {
     "device": "openaps://raspberrypi", 
-    "created_at": "2016-06-04T23:28:01.521Z", 
+    "created_at": "2016-06-04T23:41:55.992Z", 
     "pump": {
       "battery": {
         "status": "normal", 
@@ -9,33 +9,35 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-06-04T23:27:37.000Z", 
+        "timestamp": "2016-06-04T23:41:25.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 137.9, 
-      "clock": "2016-06-04T16:26:47-07:00"
+      "reservoir": 136.9, 
+      "clock": "2016-06-04T16:40:35-07:00"
     }, 
-    "_id": "5753640192fe52031875c861", 
+    "_id": "5753674392fe52031875c864", 
     "openaps": {
       "suggested": {
-        "bg": 221, 
+        "bg": 236, 
         "temp": "absolute", 
-        "snoozeBG": 231, 
-        "timestamp": "2016-06-04T23:27:02.000Z", 
-        "reason": "Eventual BG 231>=120, max_iob 2, adj. req. rate:6.1 to maxSafeBasal:5.0, temp 5 >~ req 5.0U/hr", 
-        "eventualBG": 231, 
-        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 120 Deviation: 9 BGI: 1.95", 
-        "tick": "+5"
+        "snoozeBG": 236, 
+        "timestamp": "2016-06-04T23:37:02.000Z", 
+        "reason": "Eventual BG 236>=120, max_iob 2, temp 5<4.792U/hr", 
+        "rate": 4.8, 
+        "eventualBG": 236, 
+        "duration": 30, 
+        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 120 Deviation: 15 BGI: 1.78", 
+        "tick": "+11"
       }, 
       "iob": {
-        "netbasalinsulin": -0.35, 
-        "timestamp": "2016-06-04T23:25:57.000Z", 
-        "activity": -0.0156, 
-        "basaliob": -0.043, 
-        "hightempinsulin": 1.75, 
+        "netbasalinsulin": -0.1, 
+        "timestamp": "2016-06-04T23:40:54.000Z", 
+        "activity": -0.0129, 
+        "basaliob": 0.718, 
+        "hightempinsulin": 2, 
         "bolussnooze": 0, 
-        "iob": -0.043
+        "iob": 0.718
       }, 
       "enacted": {
         "bg": 157, 
