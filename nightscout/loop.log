@@ -313,3 +313,4 @@ determine-basal://text/shell/enact/suggested.json
 reporting enact/suggested.json
 {"temp":"absolute","bg":319,"tick":-16,"eventualBG":173,"snoozeBG":173,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 120 Deviation: -116 BGI: -2.04","reason":"Eventual BG 173>119 but Avg. Delta -21.33 < Exp. Delta -3.5, temp 2 ~ req 2U/hr"}
 No action required
+Starting loop:
