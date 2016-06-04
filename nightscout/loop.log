@@ -1047,3 +1047,7 @@ vmax522://JSON/read_clock/monitor/clock.json
 reporting monitor/clock.json
 PREFLIGHT OK
 Error; could not upload
+determine-basal://text/shell/enact/suggested.json
+reporting enact/suggested.json
+[{"msg":"BG data is too old, or clock set incorrectly Fri Jun 03 2016 22:52:38 GMT-0700 (PDT) vs Fri Jun 03 2016 23:06:42 GMT-0700 (PDT)"}]
+No action required
