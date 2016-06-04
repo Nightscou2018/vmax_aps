@@ -155,3 +155,7 @@ reporting settings/basal_profile.json
 vmax522://JSON/read_settings/settings/settings.json
 reporting settings/settings.json
 get-settings worked
+ns-status://JSON/shell/monitor/upload-status.json
+reporting monitor/upload-status.json
+Input file entries.json does not exist.
+Error; could not upload
