@@ -144,3 +144,9 @@ reporting settings/basal_profile.json
 vmax522://JSON/read_settings/settings/settings.json
 reporting settings/settings.json
 get-settings worked
+ns-status://JSON/shell/monitor/upload-status.json
+reporting monitor/upload-status.json
+ns://JSON/shell/nightscout/uploaded-status.json
+reporting nightscout/uploaded-status.json
+status-upload worked
+Uploaded; most recent treatment event @ 2016-06-04T13:31:26-07:00
