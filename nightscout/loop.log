@@ -842,3 +842,4 @@ determine-basal://text/shell/enact/suggested.json
 reporting enact/suggested.json
 [{"msg":"BG data is too old, or clock set incorrectly Fri Jun 03 2016 22:27:39 GMT-0700 (PDT) vs Fri Jun 03 2016 22:41:41 GMT-0700 (PDT)"}]
 No action required
+Starting loop:
