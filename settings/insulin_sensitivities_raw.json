@@ -7,13 +7,6 @@
       "sensitivity": 25, 
       "offset": 0, 
       "x": 0
-    }, 
-    {
-      "i": 36, 
-      "start": "18:00:00", 
-      "sensitivity": 40, 
-      "offset": 1080, 
-      "x": 1
     }
   ], 
   "first": 1
