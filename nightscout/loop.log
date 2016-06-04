@@ -384,3 +384,6 @@ ns-status://JSON/shell/monitor/upload-status.json
 reporting monitor/upload-status.json
 Input file entries.json does not exist.
 Error; could not upload
+determine-basal://text/shell/enact/suggested.json
+reporting enact/suggested.json
+{"temp":"absolute","bg":312,"tick":-7,"eventualBG":202,"snoozeBG":202,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 120 Deviation: -82 BGI: -2.02","reason":"Eventual BG 202>119 but Avg. Delta -15.67 < Exp. Delta -4.3; setting current basal of 2 as temp. Setting neutral temp basal of 2U/hr","duration":30,"rate":2}
