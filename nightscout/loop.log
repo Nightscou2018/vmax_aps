@@ -676,3 +676,18 @@ Uploaded; most recent treatment event @ 2016-06-04T13:31:26-07:00
 determine-basal://text/shell/enact/suggested.json
 reporting enact/suggested.json
 {"temp":"absolute","bg":109,"tick":-11,"eventualBG":41,"snoozeBG":41,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 120 Deviation: -82 BGI: -1.06","reason":"Eventual BG 41<119, setting -10.56U/hr","duration":30,"rate":0}
+vmax522://JSON/set_temp_basal/enact/enacted.json
+reporting enact/enacted.json
+{
+  "bg": 109, 
+  "temp": "absolute", 
+  "snoozeBG": 41, 
+  "recieved": true, 
+  "rate": 0.0, 
+  "reason": "Eventual BG 41<119, setting -10.56U/hr", 
+  "eventualBG": 41, 
+  "timestamp": "2016-06-04T15:12:27.573276", 
+  "duration": 30, 
+  "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 120 Deviation: -82 BGI: -1.06", 
+  "tick": -11
+}
