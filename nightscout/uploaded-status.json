@@ -1,7 +1,7 @@
 [
   {
     "device": "openaps://raspberrypi", 
-    "created_at": "2016-06-05T01:01:59.857Z", 
+    "created_at": "2016-06-05T01:12:01.695Z", 
     "pump": {
       "battery": {
         "status": "normal", 
@@ -9,35 +9,33 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-06-05T01:01:35.000Z", 
+        "timestamp": "2016-06-05T01:11:32.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 133.5, 
-      "clock": "2016-06-04T18:00:45-07:00"
+      "reservoir": 133.2, 
+      "clock": "2016-06-04T18:10:42-07:00"
     }, 
-    "_id": "57537a0792fe52031875c87e", 
+    "_id": "57537c6192fe52031875c881", 
     "openaps": {
       "suggested": {
-        "bg": 241, 
+        "bg": 227, 
         "temp": "absolute", 
-        "snoozeBG": 284, 
-        "timestamp": "2016-06-05T00:57:05.000Z", 
-        "reason": "Eventual BG 284>119 but Avg. Delta -11.00 < Exp. Delta -6.9; setting current basal of 2 as temp. Setting neutral temp basal of 2U/hr", 
-        "rate": 2, 
-        "eventualBG": 284, 
-        "duration": 30, 
-        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 120 Deviation: 68 BGI: -2.37", 
-        "tick": -11
+        "snoozeBG": 170, 
+        "timestamp": "2016-06-05T01:02:10.000Z", 
+        "reason": "Eventual BG 170>119 but Avg. Delta -14.00 < Exp. Delta -3.8, temp 2 ~ req 2U/hr", 
+        "eventualBG": 170, 
+        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 120 Deviation: -35 BGI: -2.42", 
+        "tick": -14
       }, 
       "iob": {
-        "netbasalinsulin": 1.05, 
-        "timestamp": "2016-06-05T01:01:04.000Z", 
-        "activity": 0.0194, 
-        "basaliob": 0.891, 
+        "netbasalinsulin": 1.35, 
+        "timestamp": "2016-06-05T01:10:58.000Z", 
+        "activity": 0.019, 
+        "basaliob": 0.701, 
         "hightempinsulin": 3.2, 
         "bolussnooze": 0, 
-        "iob": 0.891
+        "iob": 0.701
       }, 
       "enacted": {
         "bg": 241, 
