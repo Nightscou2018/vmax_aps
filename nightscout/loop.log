@@ -252,3 +252,6 @@ ns://JSON/shell/nightscout/uploaded-status.json
 No JSON object could be decoded
 
 Error; could not upload
+determine-basal://text/shell/enact/suggested.json
+reporting enact/suggested.json
+{"temp":"absolute","bg":227,"tick":-4,"eventualBG":177,"snoozeBG":177,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 120 Deviation: -21 BGI: -1.54","reason":"Eventual BG 177>119 but Avg. Delta -5.00 < Exp. Delta -3.1; setting current basal of 2 as temp. Setting neutral temp basal of 2U/hr","duration":30,"rate":2}
