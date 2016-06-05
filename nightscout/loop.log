@@ -36,3 +36,5 @@ reporting monitor/iob.json
 vmax522://JSON/read_clock/monitor/clock.json
 reporting monitor/clock.json
 PREFLIGHT OK
+vmax522://JSON/read_clock/monitor/clock.json
+Error; could not upload
