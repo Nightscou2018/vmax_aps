@@ -383,3 +383,22 @@ reporting monitor/iob.json
 vmax522://JSON/read_clock/monitor/clock.json
 reporting monitor/clock.json
 PREFLIGHT OK
+vmax522://JSON/read_clock/monitor/clock.json
+reporting monitor/clock.json
+vmax522://JSON/read_temp_basal/monitor/temp_basal.json
+reporting monitor/temp_basal.json
+vmax522://JSON/iter_pump_hours/monitor/pumphistory.json
+reporting monitor/pumphistory.json
+tz://JSON/rezone/monitor/pumphistory-zoned.json
+reporting monitor/pumphistory-zoned.json
+tz://JSON/clock/monitor/clock-zoned.json
+reporting monitor/clock-zoned.json
+vmax522://JSON/read_battery_status/monitor/battery.json
+reporting monitor/battery.json
+vmax522://JSON/reservoir/monitor/reservoir.json
+reporting monitor/reservoir.json
+vmax522://JSON/read_status/monitor/status.json
+reporting monitor/status.json
+monitor-pump worked
+No recent treatments to upload
+upload-recent-treatments worked
