@@ -145,3 +145,14 @@ reporting monitor/status.json
 monitor-pump worked
 No recent treatments to upload
 upload-recent-treatments worked
+vmax522://JSON/model/settings/model.json
+reporting settings/model.json
+vmax522://JSON/read_bg_targets/settings/bg_targets_raw.json
+reporting settings/bg_targets_raw.json
+vmax522://JSON/read_insulin_sensitivities/settings/insulin_sensitivities_raw.json
+reporting settings/insulin_sensitivities_raw.json
+vmax522://JSON/read_basal_profile_std/settings/basal_profile.json
+reporting settings/basal_profile.json
+vmax522://JSON/read_settings/settings/settings.json
+reporting settings/settings.json
+get-settings worked
