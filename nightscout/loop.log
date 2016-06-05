@@ -1,16 +1,2 @@
 PREFLIGHT FAIL
 Starting loop:
-vmax522://JSON/read_clock/monitor/clock.json
-reporting monitor/clock.json
-PREFLIGHT OK
-vmax522://JSON/read_settings/settings/settings.json
-reporting settings/settings.json
-vmax522://JSON/read_bg_targets/settings/bg_targets_raw.json
-reporting settings/bg_targets_raw.json
-vmax522://JSON/read_insulin_sensitivities/settings/insulin_sensitivities_raw.json
-reporting settings/insulin_sensitivities_raw.json
-vmax522://JSON/read_basal_profile_std/settings/basal_profile.json
-reporting settings/basal_profile.json
-get-profile://text/shell/settings/profile.json
-reporting settings/profile.json
-Starting loop:
