@@ -41,3 +41,18 @@ Error; could not upload
 determine-basal://text/shell/enact/suggested.json
 reporting enact/suggested.json
 {"temp":"absolute","bg":276,"tick":"+2","eventualBG":235,"snoozeBG":235,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 120 Deviation: 6 BGI: 0.1","reason":"Eventual BG 235>=120, max_iob 2, 7m@2.525 = 0.295 > req 0.123+0.1U","duration":30,"rate":2.25}
+vmax522://JSON/set_temp_basal/enact/enacted.json
+reporting enact/enacted.json
+{
+  "bg": 276, 
+  "temp": "absolute", 
+  "snoozeBG": 235, 
+  "recieved": true, 
+  "rate": 2.25, 
+  "reason": "Eventual BG 235>=120, max_iob 2, 7m@2.525 = 0.295 > req 0.123+0.1U", 
+  "eventualBG": 235, 
+  "timestamp": "2016-06-04T17:06:46.432302", 
+  "duration": 30, 
+  "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 120 Deviation: 6 BGI: 0.1", 
+  "tick": "+2"
+}
