@@ -22,6 +22,6 @@
   "audio_bolus_size": 0, 
   "selected_pattern": 0, 
   "patterns_enabled": true, 
-  "maxBolus": 16.0, 
+  "maxBolus": 25.0, 
   "paradigm_enabled": 0
 }
