@@ -82,3 +82,6 @@ Uploaded; most recent treatment event @ determine-basal://text/shell/enact/sugge
 reporting enact/suggested.json
 No action required
 Starting loop:
+vmax522://JSON/read_clock/raw-pump/clock_raw.json
+reporting raw-pump/clock_raw.json
+PREFLIGHT OK
