@@ -7,12 +7,12 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-07-07T23:06:25.000Z", 
+      "timestamp": "2016-07-07T23:08:08.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 107.3, 
-    "clock": "2016-07-07T16:06:09-07:00"
+    "clock": "2016-07-07T16:07:51-07:00"
   }, 
   "openaps": {
     "iob": {
