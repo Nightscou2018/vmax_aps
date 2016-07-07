@@ -343,20 +343,5 @@
     "rssi": 190, 
     "type": "sgv", 
     "glucose": 231
-  }, 
-  {
-    "trend_arrow": "NOT_COMPUTABLE", 
-    "system_time": "2016-07-07T05:48:33", 
-    "direction": "NOT COMPUTABLE", 
-    "sgv": 240, 
-    "display_time": "2016-07-06T22:49:52", 
-    "date": 1467870592000.0, 
-    "dateString": "2016-07-06T22:49:52", 
-    "unfiltered": 356480, 
-    "filtered": 370112, 
-    "device": "openaps://vmaxdexhandheld", 
-    "rssi": 189, 
-    "type": "sgv", 
-    "glucose": 240
   }
 ]
