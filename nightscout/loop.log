@@ -3,3 +3,6 @@ Error; could not upload
 determine-basal://text/shell/enact/suggested.json
 reporting enact/suggested.json
 {"temp":"absolute","bg":142,"tick":-1,"eventualBG":114,"snoozeBG":114,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 100 Deviation: 0 BGI: -1.82","reason":"Eventual BG 114>=101, temp 1.175<2.28U/hr","duration":30,"rate":2.3}
+vmax522://JSON/set_temp_basal/enact/enacted.json
+No action required
+Starting loop:
