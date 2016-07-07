@@ -343,3 +343,7 @@ units://JSON/insulin_sensitivities/settings/insulin_sensitivities.json
 reporting settings/insulin_sensitivities.json
 vmax522://JSON/read_basal_profile_std/settings/basal_profile.json
 Error; could not upload
+determine-basal://text/shell/enact/suggested.json
+reporting enact/suggested.json
+{"temp":"absolute","bg":129,"tick":-3,"eventualBG":110,"snoozeBG":110,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 100 Deviation: -4 BGI: -1.94","reason":"Eventual BG 110>99 but Avg. Delta -3.00 < Exp. Delta -2.2, temp 2 ~ req 2U/hr"}
+No action required
