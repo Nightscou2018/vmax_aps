@@ -1,6 +1,21 @@
 [
   {
     "trend_arrow": "NOT_COMPUTABLE", 
+    "system_time": "2016-07-07T04:43:33", 
+    "direction": "NOT COMPUTABLE", 
+    "sgv": 265, 
+    "display_time": "2016-07-06T21:44:52", 
+    "date": 1467866692000.0, 
+    "dateString": "2016-07-06T21:44:52", 
+    "unfiltered": 421952, 
+    "filtered": 405248, 
+    "device": "openaps://vmaxdexhandheld", 
+    "rssi": 185, 
+    "type": "sgv", 
+    "glucose": 265
+  }, 
+  {
+    "trend_arrow": "NOT_COMPUTABLE", 
     "system_time": "2016-07-07T04:38:33", 
     "direction": "NOT COMPUTABLE", 
     "sgv": 263, 
