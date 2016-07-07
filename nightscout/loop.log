@@ -291,3 +291,18 @@ status-upload worked
 Uploaded; most recent treatment event @ determine-basal://text/shell/enact/suggested.json
 reporting enact/suggested.json
 {"temp":"absolute","bg":115,"tick":-5,"eventualBG":112,"snoozeBG":112,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 100 Deviation: 2 BGI: -1.31","reason":"Eventual BG 112>99 but Avg. Delta -5.00 < Exp. Delta -1.6; setting current basal of 2 as temp. Setting neutral temp basal of 2U/hr","duration":30,"rate":2}
+vmax522://JSON/set_temp_basal/enact/enacted.json
+reporting enact/enacted.json
+{
+  "bg": 115, 
+  "temp": "absolute", 
+  "snoozeBG": 112, 
+  "recieved": true, 
+  "rate": 2.0, 
+  "reason": "Eventual BG 112>99 but Avg. Delta -5.00 < Exp. Delta -1.6; setting current basal of 2 as temp. Setting neutral temp basal of 2U/hr", 
+  "eventualBG": 112, 
+  "timestamp": "2016-07-07T15:47:59.821277", 
+  "duration": 30, 
+  "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 100 Deviation: 2 BGI: -1.31", 
+  "tick": -5
+}
