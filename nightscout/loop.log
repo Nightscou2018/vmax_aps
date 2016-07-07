@@ -9,3 +9,4 @@ Starting loop:
 vmax522://JSON/read_clock/raw-pump/clock_raw.json
 reporting raw-pump/clock_raw.json
 PREFLIGHT OK
+vmax522://JSON/read_settings/raw-pump/settings.json
