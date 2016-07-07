@@ -1,7 +1,7 @@
 [
   {
     "device": "openaps://raspberrypi", 
-    "created_at": "2016-07-07T10:26:56.835Z", 
+    "created_at": "2016-07-07T10:28:08.884Z", 
     "pump": {
       "battery": {
         "status": "normal", 
@@ -9,25 +9,25 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-07-07T10:26:23.000Z", 
+        "timestamp": "2016-07-07T10:27:46.000Z", 
         "bolusing": false, 
         "suspended": true
       }, 
       "reservoir": 131, 
-      "clock": "2016-07-07T03:26:07-07:00"
+      "clock": "2016-07-07T03:27:31-07:00"
     }, 
-    "_id": "577e2e704966ceb853e10c70", 
+    "_id": "577e2eb84966ceb853e10c71", 
     "openaps": {
       "suggested": {
-        "bg": 80, 
+        "bg": 76, 
         "temp": "absolute", 
-        "snoozeBG": 71, 
-        "timestamp": "2016-07-07T10:21:56.000Z", 
-        "reason": "BG 80<87.5", 
+        "snoozeBG": 69, 
+        "timestamp": "2016-07-07T10:27:07.000Z", 
+        "reason": "BG 76<87.5", 
         "rate": 0, 
-        "eventualBG": 71, 
+        "eventualBG": 69, 
         "duration": 30, 
-        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 130 Deviation: 2 BGI: -4.8", 
+        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 130 Deviation: 0 BGI: -4.15", 
         "tick": -4
       }, 
       "iob": {
@@ -45,16 +45,16 @@
           "rate": 0, 
           "temp": "absolute"
         }, 
-        "bg": 80, 
+        "bg": 76, 
         "temp": "absolute", 
-        "snoozeBG": 71, 
-        "timestamp": "2016-07-07T10:22:02.000Z", 
+        "snoozeBG": 69, 
+        "timestamp": "2016-07-07T10:27:26.000Z", 
         "rate": 0, 
-        "reason": "BG 80<87.5", 
-        "eventualBG": 71, 
+        "reason": "BG 76<87.5", 
+        "eventualBG": 69, 
         "recieved": false, 
         "duration": 0, 
-        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 130 Deviation: 2 BGI: -4.8", 
+        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 130 Deviation: 0 BGI: -4.15", 
         "tick": -4
       }
     }
