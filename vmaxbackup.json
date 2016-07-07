@@ -1,0 +1,143 @@
+[
+  {
+    "openapscontrib.timezones": {
+      "path": ".",
+      "module": "openapscontrib.timezones"
+    },
+    "type": "vendor",
+    "name": "openapscontrib.timezones"
+  },
+  {
+    "last_four_hours": {
+      "command": "report invoke last_four_pump_hours.json last_four_cgm_hours.json"
+    },
+    "type": "alias",
+    "name": "last_four_hours"
+  },
+  {
+    "type": "alias",
+    "name": "gather-profile",
+    "gather-profile": {
+      "command": "report invoke settings/settings.json settings/bg_targets_raw.json settings/insulin_sensitivities_raw.json settings/basal_profile.json settings/profile.json"
+    }
+  },
+  {
+    "monitor-pump": {
+      "command": "report invoke monitor/clock.json monitor/temp_basal.json monitor/pumphistory.json monitor/pumphistory-zoned.json monitor/clock-zoned.json monitor/battery.json monitor/reservoir.json monitor/status.json"
+    },
+    "type": "alias",
+    "name": "monitor-pump"
+  },
+  {
+    "type": "alias",
+    "name": "monitor-cgm",
+    "monitor-cgm": {
+      "command": "report invoke monitor/glucose.json"
+    }
+  },
+  {
+    "retry-loop": {
+      "command": "! bash -c \"openaps preflight && until( ! mm-stick warmup || openaps loop); do sleep 5; done\""
+    },
+    "type": "alias",
+    "name": "retry-loop"
+  },
+  {
+    "gather": {
+      "command": "! bash -c \"rm -f monitor/*; openaps gather-profile && openaps monitor-cgm && openaps monitor-pump && openaps report invoke monitor/iob.json\""
+    },
+    "type": "alias",
+    "name": "gather"
+  },
+  {
+    "type": "alias",
+    "preflight": {
+      "command": "! bash -c \"rm -f monitor/clock.json && openaps report invoke monitor/clock.json 2>/dev/null && grep -q T monitor/clock.json && echo PREFLIGHT OK || (mm-stick warmup || sudo oref0-reset-usb; echo PREFLIGHT FAIL; sleep 120; exit 1)\""
+    },
+    "name": "preflight"
+  },
+  {
+    "type": "alias",
+    "name": "invoke",
+    "invoke": {
+      "command": "report invoke"
+    }
+  },
+  {
+    "type": "alias",
+    "name": "get-ns-glucose",
+    "get-ns-glucose": {
+      "command": "report invoke monitor/ns-glucose.json"
+    }
+  },
+  {
+    "get-bg": {
+      "command": "! bash -c \"openaps monitor-cgm 2>/dev/null || ( openaps get-ns-glucose && grep -q glucose monitor/ns-glucose.json && mv monitor/ns-glucose.json monitor/glucose.json )\""
+    },
+    "type": "alias",
+    "name": "get-bg"
+  },
+  {
+    "type": "alias",
+    "wait-for-bg": {
+      "command": "! bash -c \"cp monitor/glucose.json monitor/last-glucose.json; while(diff -q monitor/last-glucose.json monitor/glucose.json); do echo -n .; sleep 10; openaps get-bg >/dev/null; done\""
+    },
+    "name": "wait-for-bg"
+  },
+  {
+    "type": "alias",
+    "name": "format-latest-nightscout-treatments",
+    "format-latest-nightscout-treatments": {
+      "command": "! bash -c \"nightscout cull-latest-openaps-treatments monitor/pumphistory-zoned.json settings/model.json $(openaps latest-ns-treatment-time) > upload/latest-treatments.json\""
+    }
+  },
+  {
+    "type": "alias",
+    "name": "upload-recent-treatments",
+    "upload-recent-treatments": {
+      "command": "! bash -c \"openaps format-latest-nightscout-treatments && test $(json -f upload/latest-treatments.json -a created_at eventType | wc -l ) -gt 0 && ( openaps report invoke nightscout/recent-treatments.json nightcout/uploaded-missing-treatments.json ) || echo \\\"No recent treatments to upload\\\"\""
+    }
+  },
+  {
+    "type": "alias",
+    "name": "latest-ns-treatment-time",
+    "latest-ns-treatment-time": {
+      "command": "! bash -c \"nightscout latest-openaps-treatment https://vjdd.azurewebsites.net | json created_at\""
+    }
+  },
+  {
+    "type": "alias",
+    "name": "get-settings",
+    "get-settings": {
+      "command": "report invoke settings/model.json settings/bg_targets_raw.json settings/insulin_sensitivities_raw.json settings/basal_profile.json settings/settings.json"
+    }
+  },
+  {
+    "status-upload": {
+      "command": "report invoke monitor/upload-status.json nightscout/uploaded-status.json"
+    },
+    "type": "alias",
+    "name": "status-upload"
+  },
+  {
+    "type": "alias",
+    "name": "loop",
+    "loop": {
+      "command": "! bash -c \"echo Starting loop: && openaps preflight && openaps gather && openaps get-settings 2>/dev/null >/dev/null && openaps upload && openaps enact\""
+    }
+  },
+  {
+    "type": "alias",
+    "name": "enact",
+    "enact": {
+      "command": "! bash -c \"rm enact/suggested.json; openaps report invoke enact/suggested.json && cat enact/suggested.json && grep -q duration enact/suggested.json && ( openaps report invoke enact/enacted.json && cat enact/enacted.json ) || echo No action required\""
+    }
+  },
+  {
+    "type": "alias",
+    "name": "upload",
+    "upload": {
+      "command": "! bash -c \"openaps preflight && ( openaps monitor-pump && echo monitor-pump worked && openaps upload-recent-treatments && echo upload-recent-treatments worked && openaps get-settings && echo get-settings worked && openaps status-upload && echo status-upload worked ) && echo -n \\\"Uploaded; most recent treatment event @ \\\" && openaps latest-ns-treatment-time || echo \\\"Error; could not upload\\\"\""
+    }
+  }
+]
