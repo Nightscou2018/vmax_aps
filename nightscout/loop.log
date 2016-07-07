@@ -135,3 +135,5 @@ reporting monitor/iob.json
 vmax522://JSON/read_clock/raw-pump/clock_raw.json
 reporting raw-pump/clock_raw.json
 PREFLIGHT OK
+vmax522://JSON/read_clock/raw-pump/clock_raw.json
+Error; could not upload
