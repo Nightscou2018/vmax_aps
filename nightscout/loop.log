@@ -622,4 +622,6 @@ reporting monitor/upload_status.json
 ns://JSON/shell/nightscout/uploaded_status.json
 reporting nightscout/uploaded_status.json
 status-upload worked
-Uploaded; most recent treatment event @ 
+Uploaded; most recent treatment event @ determine-basal://text/shell/enact/suggested.json
+reporting enact/suggested.json
+No action required
