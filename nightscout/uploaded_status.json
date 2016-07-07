@@ -1,7 +1,7 @@
 [
   {
     "device": "openaps://raspberrypi", 
-    "created_at": "2016-07-07T18:17:59.199Z", 
+    "created_at": "2016-07-07T18:41:50.638Z", 
     "pump": {
       "battery": {
         "status": "normal", 
@@ -9,14 +9,14 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-07-07T18:17:37.000Z", 
+        "timestamp": "2016-07-07T18:41:28.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
       "reservoir": 115.3, 
-      "clock": "2016-07-07T11:17:19-07:00"
+      "clock": "2016-07-07T11:41:10-07:00"
     }, 
-    "_id": "577e9cd74966ceb853e10cdb", 
+    "_id": "577ea26e4966ceb853e10ce1", 
     "openaps": {
       "suggested": {
         "bg": 85, 
@@ -29,13 +29,13 @@
         "tick": -3
       }, 
       "iob": {
-        "netbasalinsulin": -0.25, 
-        "timestamp": "2016-07-07T18:15:58.000Z", 
-        "activity": -0.0002, 
-        "basaliob": -0.249, 
+        "netbasalinsulin": -1.1, 
+        "timestamp": "2016-07-07T18:40:58.000Z", 
+        "activity": -0.0027, 
+        "basaliob": -1.063, 
         "hightempinsulin": 0, 
         "bolussnooze": 0, 
-        "iob": -0.249
+        "iob": -1.063
       }, 
       "enacted": {
         "requested": {
