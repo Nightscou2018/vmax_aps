@@ -279,3 +279,22 @@ reporting monitor/iob.json
 vmax522://JSON/read_clock/raw-pump/clock_raw.json
 reporting raw-pump/clock_raw.json
 PREFLIGHT OK
+vmax522://JSON/read_clock/raw-pump/clock_raw.json
+reporting raw-pump/clock_raw.json
+vmax522://JSON/read_temp_basal/raw-pump/temp_basal_status.json
+reporting raw-pump/temp_basal_status.json
+vmax522://JSON/iter_pump_hours/raw-pump/pump_history_raw.json
+reporting raw-pump/pump_history_raw.json
+tz://JSON/rezone/monitor/pump_history.json
+reporting monitor/pump_history.json
+tz://JSON/clock/monitor/clock.json
+reporting monitor/clock.json
+vmax522://JSON/read_battery_status/raw-pump/battery.json
+reporting raw-pump/battery.json
+vmax522://JSON/reservoir/raw-pump/reservoir.json
+reporting raw-pump/reservoir.json
+vmax522://JSON/read_status/raw-pump/status.json
+reporting raw-pump/status.json
+monitor-pump worked
+No recent treatments to upload
+upload-recent-treatments worked
