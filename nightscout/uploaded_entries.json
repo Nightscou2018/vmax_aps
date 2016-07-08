@@ -15,21 +15,6 @@
     "glucose": 67
   }, 
   {
-    "trend_arrow": "45_DOWN", 
-    "display_time": "2016-07-07T23:24:47-07:00", 
-    "system_time": "2016-07-08T06:23:28", 
-    "direction": "FortyFiveDown", 
-    "dateString": "2016-07-07T23:24:47-07:00", 
-    "date": 1467959087000, 
-    "unfiltered": 131296, 
-    "filtered": 134976, 
-    "device": "openaps://vmaxdexhandheld", 
-    "rssi": 163, 
-    "sgv": 71, 
-    "type": "sgv", 
-    "glucose": 71
-  }, 
-  {
     "trend_arrow": "FLAT", 
     "display_time": "2016-07-07T23:54:48-07:00", 
     "system_time": "2016-07-08T06:53:28", 
@@ -60,6 +45,21 @@
     "glucose": 66
   }, 
   {
+    "trend_arrow": "45_UP", 
+    "display_time": "2016-07-08T01:19:47-07:00", 
+    "system_time": "2016-07-08T08:18:27", 
+    "direction": "FortyFiveUp", 
+    "dateString": "2016-07-08T01:19:47-07:00", 
+    "date": 1467965987000, 
+    "unfiltered": 230400, 
+    "filtered": 221888, 
+    "device": "openaps://vmaxdexhandheld", 
+    "rssi": 194, 
+    "sgv": 139, 
+    "type": "sgv", 
+    "glucose": 139
+  }, 
+  {
     "trend_arrow": "SINGLE_UP", 
     "display_time": "2016-07-08T01:14:47-07:00", 
     "system_time": "2016-07-08T08:13:27", 
@@ -73,35 +73,5 @@
     "sgv": 138, 
     "type": "sgv", 
     "glucose": 138
-  }, 
-  {
-    "trend_arrow": "SINGLE_UP", 
-    "display_time": "2016-07-08T01:09:47-07:00", 
-    "system_time": "2016-07-08T08:08:27", 
-    "direction": "SingleUp", 
-    "dateString": "2016-07-08T01:09:47-07:00", 
-    "date": 1467965387000, 
-    "unfiltered": 220928, 
-    "filtered": 198400, 
-    "device": "openaps://vmaxdexhandheld", 
-    "rssi": 195, 
-    "sgv": 132, 
-    "type": "sgv", 
-    "glucose": 132
-  }, 
-  {
-    "trend_arrow": "45_UP", 
-    "display_time": "2016-07-08T01:04:47-07:00", 
-    "system_time": "2016-07-08T08:03:27", 
-    "direction": "FortyFiveUp", 
-    "dateString": "2016-07-08T01:04:47-07:00", 
-    "date": 1467965087000, 
-    "unfiltered": 206048, 
-    "filtered": 190432, 
-    "device": "openaps://vmaxdexhandheld", 
-    "rssi": 195, 
-    "sgv": 122, 
-    "type": "sgv", 
-    "glucose": 122
   }
 ]
