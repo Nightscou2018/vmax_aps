@@ -556,3 +556,9 @@ vmaxdexhandheld://JSON/oref0_glucose/raw-cgm/glucose_raw.json
 reporting raw-cgm/glucose_raw.json
 tz://JSON/rezone/monitor/glucose.json
 reporting monitor/glucose.json
+vmax522://JSON/read_clock/raw-pump/clock_raw.json
+reporting raw-pump/clock_raw.json
+vmax522://JSON/read_temp_basal/raw-pump/temp_basal_status.json
+reporting raw-pump/temp_basal_status.json
+vmax522://JSON/iter_pump_hours/raw-pump/pump_history_raw.json
+Starting loop:
