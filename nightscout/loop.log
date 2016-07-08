@@ -680,3 +680,6 @@ reporting enact/suggested.json
 vmax522://JSON/set_temp_basal/enact/enacted.json
 No action required
 Starting loop:
+vmax522://JSON/read_clock/raw-pump/clock_raw.json
+reporting raw-pump/clock_raw.json
+PREFLIGHT OK
