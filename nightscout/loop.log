@@ -1,2 +1,5 @@
 PREFLIGHT FAIL
 Error; could not upload
+determine-basal://text/shell/enact/suggested.json
+reporting enact/suggested.json
+{"temp":"absolute","bg":66,"tick":"+0","eventualBG":103,"snoozeBG":103,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 100 Deviation: -15 BGI: 2.55","reason":"BG 66<74.5","duration":30,"rate":0}
