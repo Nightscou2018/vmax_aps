@@ -83,3 +83,6 @@ reporting enact/suggested.json
 {"temp":"absolute","bg":106,"tick":"+9","eventualBG":133,"snoozeBG":133,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 130 Deviation: 15 BGI: 1.04","reason":"133-133 in range: no temp required, temp 1.5 ~ req 1.5U/hr"}
 No action required
 Starting loop:
+vmax522://JSON/read_clock/raw-pump/clock_raw.json
+reporting raw-pump/clock_raw.json
+PREFLIGHT OK
