@@ -46,3 +46,7 @@ vmax522://JSON/read_temp_basal/raw-pump/temp_basal_status.json
 reporting raw-pump/temp_basal_status.json
 vmax522://JSON/iter_pump_hours/raw-pump/pump_history_raw.json
 Error; could not upload
+determine-basal://text/shell/enact/suggested.json
+reporting enact/suggested.json
+[{"msg":"BG data is too old, or clock set incorrectly Fri Jul 08 2016 12:14:44 GMT-0700 (PDT) vs Fri Jul 08 2016 12:26:57 GMT-0700 (PDT)"}]
+No action required
