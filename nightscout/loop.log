@@ -95,3 +95,5 @@ vmax522://JSON/reservoir/raw-pump/reservoir.json
 reporting raw-pump/reservoir.json
 vmax522://JSON/read_status/raw-pump/status.json
 reporting raw-pump/status.json
+calculate-iob://JSON/shell/monitor/iob.json
+reporting monitor/iob.json
