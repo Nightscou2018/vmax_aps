@@ -532,3 +532,7 @@ ns://JSON/shell/nightscout/uploaded_status.json
 reporting nightscout/uploaded_status.json
 status-upload worked
 Uploaded; most recent treatment event @ 2016-07-08T09:01:53-07:00
+determine-basal://text/shell/enact/suggested.json
+reporting enact/suggested.json
+{"temp":"absolute","bg":90,"tick":-2,"eventualBG":92,"snoozeBG":92,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 100 Deviation: -14 BGI: 0.33","reason":"Eventual BG 92<99, temp 0.675 ~< req 0.72U/hr"}
+No action required
