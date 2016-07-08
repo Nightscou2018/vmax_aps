@@ -1,0 +1,135 @@
+[
+  {
+    "type": "alias",
+    "name": "rm-warmup",
+    "rm-warmup": {
+      "command": "! bash -c \"rm -f model.json monitor/clock.json > /dev/null\""
+    }
+  },
+  {
+    "type": "alias",
+    "name": "warmup",
+    "warmup": {
+      "command": "report invoke model.json raw-pump/clock-raw.json monitor/clock.json"
+    }
+  },
+  {
+    "fail-warmup": {
+      "command": "! bash -c \"echo PREFLIGHT FAIL; exit 1\""
+    },
+    "type": "alias",
+    "name": "fail-warmup"
+  },
+  {
+    "type": "alias",
+    "preflight": {
+      "command": "! bash -c \"(echo PREFLIGHT ) && openaps warmup 2>&1 >/dev/null && grep -q T monitor/clock.json && echo PREFLIGHT OK || openaps fail-warmup\""
+    },
+    "name": "preflight"
+  },
+  {
+    "type": "alias",
+    "name": "monitor-cgm",
+    "monitor-cgm": {
+      "command": "report invoke raw-cgm/glucose-raw.json monitor/glucose.json"
+    }
+  },
+  {
+    "type": "alias",
+    "name": "monitor-pump-history",
+    "monitor-pump-history": {
+      "command": "report invoke raw-pump/pump-history-raw.json monitor/pump-history.json"
+    }
+  },
+  {
+    "type": "alias",
+    "name": "get-basal-status",
+    "get-basal-status": {
+      "command": "report invoke monitor/temp-basal-status.json"
+    }
+  },
+  {
+    "type": "alias",
+    "name": "get-pump-details",
+    "get-pump-details": {
+      "command": "report invoke monitor/reservoir.json monitor/status.json monitor/battery.json"
+    }
+  },
+  {
+    "type": "alias",
+    "name": "get-settings",
+    "get-settings": {
+      "command": "report invoke raw-pump/bg-targets-raw.json settings/bg-targets.json raw-pump/insulin-sensitivities-raw.json settings/insulin-sensitivities.json raw-pump/selected-basal-profile.json raw-pump/settings.json settings/selected-basal-profile.json settings/settings.json"
+    }
+  },
+  {
+    "type": "alias",
+    "name": "gather-pump-data",
+    "gather-pump-data": {
+      "command": "! bash -c \"openaps get-basal-status; openaps get-pump-details; openaps monitor-pump-history;  openaps get-settings\""
+    }
+  },
+  {
+    "type": "alias",
+    "name": "gather-clean-data",
+    "gather-clean-data": {
+      "command": "! bash -c \"openaps monitor-cgm && openaps gather-pump-data\""
+    }
+  },
+  {
+    "type": "alias",
+    "name": "do-oref0",
+    "do-oref0": {
+      "command": "report invoke oref0-monitor/profile.json oref0-monitor/iob.json oref0-predict/oref0.json"
+    }
+  },
+  {
+    "type": "alias",
+    "name": "enact-oref0",
+    "enact-oref0": {
+      "command": "report invoke oref0-enacted/enacted-temp-basal.json"
+    }
+  },
+  {
+    "do-everything": {
+      "command": "! bash -c \"(openaps preflight && openaps gather-clean-data && openaps do-oref0 && openaps enact-oref0);  openaps report-nightscout\""
+    },
+    "type": "alias",
+    "name": "do-everything"
+  },
+  {
+    "type": "alias",
+    "ping": {
+      "command": "! bash -c \"echo PONG! $*\" --"
+    },
+    "name": "ping"
+  },
+  {
+    "pong": {
+      "command": "! echo PONG"
+    },
+    "type": "alias",
+    "name": "pong"
+  },
+  {
+    "type": "alias",
+    "name": "hello",
+    "hello": {
+      "command": "! echo hello"
+    }
+  },
+  {
+    "type": "alias",
+    "okbar": {
+      "command": "! bash -c \"echo $1\" --"
+    },
+    "name": "okbar"
+  },
+  {
+    "report-nightscout": {
+      "command": "report invoke nightscout/preflight.json nightscout/recent-treatments.json nightscout/uploaded.json nightscout/recent-missing-entries.json nightscout/uploaded-entries.json"
+    },
+    "type": "alias",
+    "name": "report-nightscout"
+  }
+]
