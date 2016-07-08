@@ -344,3 +344,4 @@ Uploaded; most recent treatment event @ determine-basal://text/shell/enact/sugge
 reporting enact/suggested.json
 {"temp":"absolute","bg":143,"tick":-4,"eventualBG":102,"snoozeBG":102,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 100 Deviation: -39 BGI: -0.1","reason":"Eventual BG 102>99 but Avg. Delta -6.67 < Exp. Delta -0.2, temp 2 ~ req 2U/hr"}
 No action required
+Starting loop:
