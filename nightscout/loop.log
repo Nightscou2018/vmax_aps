@@ -165,3 +165,4 @@ Uploaded; most recent treatment event @ determine-basal://text/shell/enact/sugge
 reporting enact/suggested.json
 [{"msg":"BG data is too old, or clock set incorrectly Thu Jul 07 2016 19:09:48 GMT-0700 (PDT) vs Thu Jul 07 2016 20:27:50 GMT-0700 (PDT)"}]
 No action required
+Starting loop:
