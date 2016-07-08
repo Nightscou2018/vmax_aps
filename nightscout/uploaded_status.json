@@ -1,7 +1,7 @@
 [
   {
     "device": "openaps://raspberrypi", 
-    "created_at": "2016-07-08T00:07:33.873Z", 
+    "created_at": "2016-07-08T00:09:01.125Z", 
     "pump": {
       "battery": {
         "status": "normal", 
@@ -9,14 +9,14 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-07-08T00:06:25.000Z", 
+        "timestamp": "2016-07-08T00:08:05.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 105.3, 
-      "clock": "2016-07-07T17:06:08-07:00"
+      "reservoir": 105.2, 
+      "clock": "2016-07-07T17:07:49-07:00"
     }, 
-    "_id": "577eeec54966ceb853e10d59", 
+    "_id": "577eef1d4966ceb853e10d5a", 
     "openaps": {
       "iob": {
         "netbasalinsulin": 0.1, 
