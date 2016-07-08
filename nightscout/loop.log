@@ -178,3 +178,4 @@ Uploaded; most recent treatment event @ determine-basal://text/shell/enact/sugge
 reporting enact/suggested.json
 {"temp":"absolute","bg":167,"tick":"+1","eventualBG":166,"snoozeBG":166,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 100 Deviation: 3 BGI: -0.01","reason":"Eventual BG 166>=101, max_iob 2, adj. req. rate:5.7 to maxSafeBasal:5.0, temp 5 >~ req 5.0U/hr"}
 No action required
+Starting loop:
