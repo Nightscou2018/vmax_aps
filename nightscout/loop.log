@@ -83,3 +83,4 @@ reporting enact/suggested.json
 {"temp":"absolute","bg":64,"tick":-2,"eventualBG":67,"snoozeBG":67,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 130 Deviation: -12 BGI: 1.01","reason":"BG 64<87.5","duration":30,"rate":0}
 vmax522://JSON/set_temp_basal/enact/enacted.json
 No action required
+Starting loop:
