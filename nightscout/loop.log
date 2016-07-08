@@ -113,3 +113,5 @@ vmaxdexhandheld://JSON/oref0_glucose/raw-cgm/glucose_raw.json
 reporting raw-cgm/glucose_raw.json
 vmaxdexhandheld://JSON/iter_glucose/monitor/glucose.json
 reporting monitor/glucose.json
+vmax522://JSON/read_clock/raw-pump/clock_raw.json
+Starting loop:
