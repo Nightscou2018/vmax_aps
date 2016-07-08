@@ -1,6 +1,21 @@
 [
   {
     "trend_arrow": "45_DOWN", 
+    "system_time": "2016-07-08T05:28:28", 
+    "direction": "FortyFiveDown", 
+    "sgv": 114, 
+    "display_time": "2016-07-07T22:29:47", 
+    "date": 1467955787000.0, 
+    "dateString": "2016-07-07T22:29:47", 
+    "unfiltered": 195840, 
+    "filtered": 206112, 
+    "device": "openaps://vmaxdexhandheld", 
+    "rssi": 185, 
+    "type": "sgv", 
+    "glucose": 114
+  }, 
+  {
+    "trend_arrow": "45_DOWN", 
     "system_time": "2016-07-08T05:23:28", 
     "direction": "FortyFiveDown", 
     "sgv": 119, 
