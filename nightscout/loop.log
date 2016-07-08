@@ -62,3 +62,11 @@ No JSON object could be decoded
 
 No recent treatments to upload
 upload-recent-treatments worked
+vmax522://JSON/model/settings/model.json
+reporting settings/model.json
+units://JSON/bg_targets/settings/bg_targets.json
+reporting settings/bg_targets.json
+units://JSON/insulin_sensitivities/settings/insulin_sensitivities.json
+reporting settings/insulin_sensitivities.json
+vmax522://JSON/read_basal_profile_std/settings/basal_profile.json
+Error; could not upload
