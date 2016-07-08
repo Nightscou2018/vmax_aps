@@ -1,6 +1,21 @@
 [
   {
     "trend_arrow": "FLAT", 
+    "display_time": "2016-07-08T06:24:46-07:00", 
+    "system_time": "2016-07-08T13:23:26", 
+    "direction": "Flat", 
+    "dateString": "2016-07-08T06:24:46-07:00", 
+    "date": 1467984286000, 
+    "unfiltered": 191904, 
+    "filtered": 193920, 
+    "device": "openaps://vmaxdexhandheld", 
+    "rssi": 188, 
+    "sgv": 112, 
+    "type": "sgv", 
+    "glucose": 112
+  }, 
+  {
+    "trend_arrow": "FLAT", 
     "display_time": "2016-07-08T06:19:46-07:00", 
     "system_time": "2016-07-08T13:18:26", 
     "direction": "Flat", 
@@ -13,65 +28,5 @@
     "sgv": 113, 
     "type": "sgv", 
     "glucose": 113
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2016-07-08T06:14:46-07:00", 
-    "system_time": "2016-07-08T13:13:26", 
-    "direction": "Flat", 
-    "dateString": "2016-07-08T06:14:46-07:00", 
-    "date": 1467983686000, 
-    "unfiltered": 194784, 
-    "filtered": 195232, 
-    "device": "openaps://vmaxdexhandheld", 
-    "rssi": 186, 
-    "sgv": 114, 
-    "type": "sgv", 
-    "glucose": 114
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2016-07-08T06:09:46-07:00", 
-    "system_time": "2016-07-08T13:08:26", 
-    "direction": "Flat", 
-    "dateString": "2016-07-08T06:09:46-07:00", 
-    "date": 1467983386000, 
-    "unfiltered": 194816, 
-    "filtered": 195936, 
-    "device": "openaps://vmaxdexhandheld", 
-    "rssi": 185, 
-    "sgv": 114, 
-    "type": "sgv", 
-    "glucose": 114
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2016-07-08T06:04:46-07:00", 
-    "system_time": "2016-07-08T13:03:26", 
-    "direction": "Flat", 
-    "dateString": "2016-07-08T06:04:46-07:00", 
-    "date": 1467983086000, 
-    "unfiltered": 195776, 
-    "filtered": 196896, 
-    "device": "openaps://vmaxdexhandheld", 
-    "rssi": 193, 
-    "sgv": 114, 
-    "type": "sgv", 
-    "glucose": 114
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2016-07-08T05:59:46-07:00", 
-    "system_time": "2016-07-08T12:58:26", 
-    "direction": "Flat", 
-    "dateString": "2016-07-08T05:59:46-07:00", 
-    "date": 1467982786000, 
-    "unfiltered": 196320, 
-    "filtered": 197984, 
-    "device": "openaps://vmaxdexhandheld", 
-    "rssi": 193, 
-    "sgv": 115, 
-    "type": "sgv", 
-    "glucose": 115
   }
 ]
