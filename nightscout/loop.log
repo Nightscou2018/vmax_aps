@@ -336,3 +336,6 @@ vmax522://JSON/reservoir/raw-pump/reservoir.json
 reporting raw-pump/reservoir.json
 vmax522://JSON/read_status/raw-pump/status.json
 Error; could not upload
+determine-basal://text/shell/enact/suggested.json
+reporting enact/suggested.json
+No action required
