@@ -275,3 +275,6 @@ vmax522://JSON/read_temp_basal/raw-pump/temp_basal_status.json
 reporting raw-pump/temp_basal_status.json
 vmax522://JSON/iter_pump_hours/raw-pump/pump_history_raw.json
 Starting loop:
+vmax522://JSON/read_clock/raw-pump/clock_raw.json
+reporting raw-pump/clock_raw.json
+PREFLIGHT OK
