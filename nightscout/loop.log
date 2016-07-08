@@ -121,3 +121,12 @@ reporting raw-pump/reservoir.json
 vmax522://JSON/read_status/raw-pump/status.json
 reporting raw-pump/status.json
 monitor-pump worked
+ns://JSON/shell/nightscout/recent_treatments.json
+reporting nightscout/recent_treatments.json
+ns://JSON/shell/nightscout/uploaded.json
+reporting nightscout/uploaded.json
+ns://JSON/shell/nightscout/recent_missing_entries.json
+reporting nightscout/recent_missing_entries.json
+ns://JSON/shell/nightscout/uploaded_entries.json
+reporting nightscout/uploaded_entries.json
+upload-recent-treatments worked
