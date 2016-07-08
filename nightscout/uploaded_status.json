@@ -1,7 +1,7 @@
 [
   {
     "device": "openaps://raspberrypi", 
-    "created_at": "2016-07-08T03:57:39.527Z", 
+    "created_at": "2016-07-08T03:59:07.215Z", 
     "pump": {
       "battery": {
         "status": "normal", 
@@ -9,18 +9,18 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-07-08T03:56:27.000Z", 
+        "timestamp": "2016-07-08T03:58:11.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
       "reservoir": 96.1, 
-      "clock": "2016-07-07T20:56:10-07:00"
+      "clock": "2016-07-07T20:57:55-07:00"
     }, 
-    "_id": "577f24b34966ceb853e10d92", 
+    "_id": "577f250b4966ceb853e10d93", 
     "openaps": {
       "suggested": [
         {
-          "msg": "BG data is too old, or clock set incorrectly Thu Jul 07 2016 19:09:48 GMT-0700 (PDT) vs Thu Jul 07 2016 20:48:24 GMT-0700 (PDT)"
+          "msg": "BG data is too old, or clock set incorrectly Thu Jul 07 2016 19:09:48 GMT-0700 (PDT) vs Thu Jul 07 2016 20:57:49 GMT-0700 (PDT)"
         }
       ], 
       "iob": {
