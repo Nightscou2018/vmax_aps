@@ -537,3 +537,6 @@ reporting enact/enacted.json
   "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 25, Target: 100 Deviation: -17 BGI: 1.8", 
   "tick": -2
 }Starting loop:
+vmax522://JSON/read_clock/raw-pump/clock_raw.json
+reporting raw-pump/clock_raw.json
+PREFLIGHT OK
