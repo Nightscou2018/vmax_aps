@@ -540,3 +540,15 @@ reporting enact/enacted.json
 vmax522://JSON/read_clock/raw-pump/clock_raw.json
 reporting raw-pump/clock_raw.json
 PREFLIGHT OK
+vmax522://JSON/read_settings/raw-pump/settings.json
+reporting raw-pump/settings.json
+vmax522://JSON/read_bg_targets/raw-pump/bg_targets_raw.json
+reporting raw-pump/bg_targets_raw.json
+vmax522://JSON/read_insulin_sensitivities/raw-pump/insulin_sensitivities_raw.json
+reporting raw-pump/insulin_sensitivities_raw.json
+vmax522://JSON/read_selected_basal_profile/raw-pump/selected_basal_profile.json
+reporting raw-pump/selected_basal_profile.json
+oref0://JSON/shell/settings/selected_basal_profile.json
+reporting settings/selected_basal_profile.json
+get-profile://text/shell/settings/profile.json
+reporting settings/profile.json
