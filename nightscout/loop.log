@@ -83,3 +83,6 @@ reporting enact/suggested.json
 [{"msg":"BG data is too old, or clock set incorrectly Thu Jul 07 2016 19:09:48 GMT-0700 (PDT) vs Thu Jul 07 2016 20:22:49 GMT-0700 (PDT)"}]
 No action required
 Starting loop:
+vmax522://JSON/read_clock/raw-pump/clock_raw.json
+reporting raw-pump/clock_raw.json
+PREFLIGHT OK
