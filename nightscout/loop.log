@@ -238,3 +238,9 @@ reporting settings/selected_basal_profile.json
 oref0://JSON/shell/settings/settings.json
 reporting settings/settings.json
 get-settings worked
+ns-status://JSON/shell/monitor/upload_status.json
+reporting monitor/upload_status.json
+ns://JSON/shell/nightscout/uploaded_status.json
+reporting nightscout/uploaded_status.json
+status-upload worked
+Uploaded; most recent treatment event @ 2016-07-08T06:06:55-07:00
