@@ -373,3 +373,7 @@ oref0://JSON/shell/settings/selected_basal_profile.json
 reporting settings/selected_basal_profile.json
 get-profile://text/shell/settings/profile.json
 reporting settings/profile.json
+vmaxdexhandheld://JSON/oref0_glucose/raw-cgm/glucose_raw.json
+reporting raw-cgm/glucose_raw.json
+tz://JSON/rezone/monitor/glucose.json
+reporting monitor/glucose.json
